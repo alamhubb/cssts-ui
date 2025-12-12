@@ -57,6 +57,7 @@ export default defineConfig(async ({ mode }) => {
       VueMacros({
         setupComponent: false,
         setupSFC: false,
+        shortEmits: false,
         plugins: {
           vue: vue(),
           vueJsx: vueJsx(),
