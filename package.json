@@ -1,0 +1,27 @@
+{
+  "name": "cssts-ui",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "internal/*",
+    "play",
+    "docs"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w play",
+    "build": "npm run start -w @element-plus/build",
+    "clean": "rimraf dist",
+    "stub": "npm run stub -w @element-plus/build-utils && npm run stub -w @element-plus/build-constants && npm run stub -w @element-plus/build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "fast-glob": "^3.3.2",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.6.2",
+    "vue": "^3.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
