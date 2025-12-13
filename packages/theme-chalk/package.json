@@ -27,7 +27,7 @@
     "build": "gulp --require @esbuild-kit/cjs-loader"
   },
   "devDependencies": {
-    "@element-plus/build": "workspace:*",
+    "@element-plus/build": "*",
     "@esbuild-kit/cjs-loader": "^2.2.1",
     "@types/gulp-autoprefixer": "^0.0.33",
     "@types/gulp-rename": "^2.0.1",

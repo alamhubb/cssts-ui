@@ -8,16 +8,14 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "start": "gulp --require @esbuild-kit/cjs-loader -f gulpfile.ts",
-    "dev": "pnpm run stub",
+    "dev": "npm run stub",
     "stub": "unbuild --stub"
   },
   "peerDependencies": {
     "vue": "^3.2.25"
   },
   "dependencies": {
-    "@element-plus/build-constants": "workspace:*",
-    "@pnpm/find-workspace-packages": "^4.0.16",
-    "@pnpm/logger": "^4.0.0",
+    "@element-plus/build-constants": "*",
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-replace": "^5.0.5",
@@ -37,7 +35,7 @@
   },
   "devDependencies": {
     "@esbuild-kit/cjs-loader": "^2.2.1",
-    "@pnpm/types": "^8.4.0",
+
     "unbuild": "^2.0.0",
     "vue": "^3.2.37"
   }
