@@ -22,7 +22,7 @@ export {
   buttonCircle,
   getButtonTypeStyle,
   getButtonSizeStyle,
-} from './button'
+} from './button.cssts'
 
 // Icon styles
 export {
@@ -34,7 +34,7 @@ export {
   iconDefault,
   iconLarge,
   getIconSizeStyle,
-} from './icon'
+} from './icon.cssts'
 
 // Input styles
 export {
@@ -53,4 +53,4 @@ export {
   textareaInner,
   textareaDisabled,
   getInputSizeStyle,
-} from './input'
+} from './input.cssts'
